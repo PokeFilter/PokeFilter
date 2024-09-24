@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeFilter</title>
+    <script src="./PokeFilter.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="selection">
+    <!-- <h1>Filters:</h1> -->
+    <img class="filtersimg" src="images/filters_text.png">
+
+    <div class="genrow">
+        <button class="genbutton" onclick="handleGenButtonClick('1', this)"> I  </button>
+        <button class="genbutton" onclick="handleGenButtonClick('2', this)"> II </button>
+        <button class="genbutton" onclick="handleGenButtonClick('3', this)"> III </button>
+        <button class="genbutton" onclick="handleGenButtonClick('4', this)"> IV </button>
+        <button class="genbutton" onclick="handleGenButtonClick('5', this)"> V </button>
+        <button class="genbutton" onclick="handleGenButtonClick('6', this)"> VI </button>
+        <button class="genbutton" onclick="handleGenButtonClick('7', this)"> VII </button>
+        <button class="genbutton" onclick="handleGenButtonClick('8', this)"> VIII </button>
+        <button class="genbutton" onclick="handleGenButtonClick('9', this)"> IX </button>
+    </div> 
+
+    <div class="typerow">
+        <button class="typebutton" onclick="handleTypeButtonClick('1', this)"> <img class="typeimg" src="images/normal.png"> </button>
+        <button class="typebutton" onclick="handleTypeButtonClick('2', this)"> <img class="typeimg" src="images/fighting.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('3', this)"> <img class="typeimg" src="images/flying.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('4', this)"> <img class="typeimg" src="images/poison.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('5', this)"> <img class="typeimg" src="images/ground.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('6', this)"> <img class="typeimg" src="images/rock.png"></button>
+    </div>  
+
+    <div class="typerow">
+        <button class="typebutton" onclick="handleTypeButtonClick('7', this)"> <img class="typeimg" src="images/bug.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('8', this)"> <img class="typeimg" src="images/ghost.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('9', this)"> <img class="typeimg" src="images/steel.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('10', this)"> <img class="typeimg" src="images/fire.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('11', this)"> <img class="typeimg" src="images/water.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('12', this)"> <img class="typeimg" src="images/grass.png"></button>
+    </div>
+
+    <div class="typerow">
+        <button class="typebutton" onclick="handleTypeButtonClick('13', this)"> <img class="typeimg" src="images/electric.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('14', this)"> <img class="typeimg" src="images/psychic.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('15', this)"> <img class="typeimg" src="images/ice.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('16', this)"> <img class="typeimg" src="images/dragon.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('17', this)"> <img class="typeimg" src="images/dark.png"></button>
+        <button class="typebutton" onclick="handleTypeButtonClick('18', this)"> <img class="typeimg" src="images/fairy.png"></button>
+    </div> 
+    <div class ="clearButtonContainer">
+        <button class = "clearButton" onclick="handleClearButtonClick()"> Clear Filters</button>
+    </div>
+</div>
+    <div id="output"></div><br><br>
+</body>
+</html>

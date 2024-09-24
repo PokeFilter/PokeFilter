@@ -1,0 +1,140 @@
+.typerow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    gap:10px;
+}
+
+.selection{
+    background-color: #97d3da; 
+    opacity: 95%;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.filtersimg{
+    width: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.typeimg{
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.typebutton {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0;
+}
+
+.typebutton.active{
+    background-color: #4CAF50; /* Example: highlight with green */
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    margin-top: 2vh;
+    background-color: #62c9e3;
+}
+
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+    background-color: wheat;
+}
+
+#output {
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    color: #444;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.pokeEntry, .pokeEntry2{
+    display: flex;
+    align-items: center;
+    color:white;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding : 1%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.pokeEntry{
+    background:hsla(0, 1%, 50%, 0.75);
+}
+.pokeEntry2{
+    background:hsla(0, 1%, 31%, 0.75);
+}
+
+.pokeSprite{
+    transform: rotateY(180deg);
+    margin-right: 25%; /* Add some space between the image and the text */
+}
+
+.pokeDesc{
+    font-size: large;
+}
+
+.genbutton{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.genrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    gap:10px;
+}
+
+.genbutton.active{
+    background-color: #4CAF50; /* Example: highlight with green */
+    color: white;
+}
+
+.clearButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    gap:10px;
+
+}
+
+.clearButton{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
